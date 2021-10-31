@@ -10,18 +10,22 @@ const Work = () => {
       <div className="container">
         <div className="work-wrapper">
           <Fade bottom>
-            <h1>Work</h1>
+            <h1>Projects</h1>
           </Fade>
 
           <div className="grid">
             <Fade bottom cascade>
               {data.projects.map((project, index) => (
                 <Card
+                  style={{
+                    color: "black",
+                  }}
                   key={index}
                   heading={project.title}
                   paragraph={project.para}
                   imgUrl={project.imageSrc}
                   projectLink={project.url}
+                  gitHub = {project.githubLink}
                 ></Card>
               ))}
             </Fade>

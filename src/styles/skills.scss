@@ -9,6 +9,7 @@
     line-height: 20px;
   }
 
+
   .skills-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -23,6 +24,7 @@
     @include media(">=tablet", "<desktop") {
       grid-template-columns: 1fr 1fr;
     }
+
     .skill {
       display: flex;
       flex-direction: column;
@@ -35,5 +37,8 @@
         font-size: 14px;
       }
     }
+  }
+  .skills-grid:nth-child(3n - 2) {
+    grid-column-end: 2;
   }
 }

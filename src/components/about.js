@@ -16,13 +16,30 @@ const About = () => {
               <br></br>
               <br></br>
               {data.aboutParaTwo}
-              <br></br>
-              <br></br>
-              {data.aboutParaThree}
             </p>
+            <div className="social-icons">
+              {data.social.map((socialLink, index) => (
+                <a
+                  key={index}
+                  href={socialLink.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={socialLink.img} alt="icons"></img>
+                </a>
+              ))}
+            </div>
           </div>
           <div className="image-wrapper">
-            <img src={data.aboutImage} alt="about"></img>
+            <img
+              style={{
+                height: "300px",
+                width: "350px",
+                borderRadius: "50%",
+              }}
+              src={data.aboutImage}
+              alt="about"
+            ></img>
           </div>
         </div>
       </div>

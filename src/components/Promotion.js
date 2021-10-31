@@ -1,16 +1,21 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
-import data from "../yourdata"
 
 const Promotion = () => {
   return (
     <div className="section">
       <div className="container">
         <div className="promotion-container">
-          <Fade bottom cascade>
-            <h1>{data.promotionHeading}</h1>
+          <Fade bottom>
+            <a
+              href="https://drive.google.com/file/d/1pAnqC3yTdiF6-svNyUxxwzHcOe4_pYbq/view?usp=sharing"
+              className="primary-btn"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              DOWNLOAD RESUME
+            </a>
           </Fade>
-          <p>{data.promotionPara}</p>
         </div>
       </div>
     </div>

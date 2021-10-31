@@ -1,9 +1,9 @@
 {
-  "name": "react-portfolio-template",
+  "name": "mahipal-portfolio",
   "private": true,
-  "description": "Portfolio Template For Awesome Peoples",
+  "description": "It is mahipal's portfolio.",
   "version": "0.1.0",
-  "author": "Chetan Verma <hello@chetanverma.com>",
+  "author": "Mahipal Singh",
   "dependencies": {
     "gatsby": "^2.26.1",
     "gatsby-image": "^2.5.0",

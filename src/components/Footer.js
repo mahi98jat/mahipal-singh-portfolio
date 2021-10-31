@@ -14,6 +14,8 @@ const Footer = () => {
           <a className="email-link" href={`mailto:${data.contactEmail}`}>
             {data.contactEmail}
           </a>
+          <span>7024370634</span>
+          <span>Patwari Ka Bass, Sikar, Rajasthan, India</span>
           <div className="social-icons">
             {data.social.map((socialLink, index) => (
               <a
@@ -26,10 +28,6 @@ const Footer = () => {
               </a>
             ))}
           </div>
-          <span>
-            Made With <icon>❤</icon> by{" "}
-            <a href="https://www.chetanverma.com/">Chetan Verma</a>
-          </span>
         </div>
       </div>
     </div>
