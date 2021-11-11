@@ -1,6 +1,6 @@
 {
   "name": "mahipal-portfolio",
-  "private": true,
+  "private": false,
   "description": "It is mahipal's portfolio.",
   "version": "0.1.0",
   "author": "Mahipal Singh",
