@@ -28,6 +28,10 @@ const Footer = () => {
               </a>
             ))}
           </div>
+          <span>
+            Made With <icon>❤</icon> by{" "}
+            Mahipal Singh
+          </span>
         </div>
       </div>
     </div>

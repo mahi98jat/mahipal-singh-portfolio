@@ -6,8 +6,8 @@ import jsIcon from "./images/javascript.svg"
 import mongoDB from "./images/mongoDB.svg"
 import nodeJs from "./images/nodeJs.svg"
 import redux from "./images/redux.svg"
-import nextJs from './images/next-js.svg'
-import typeScript from './images/typescript.svg'
+import nextJs from "./images/next-js.svg"
+import typeScript from "./images/typescript.svg"
 // Social Icon
 import githubIcon from "./images/github.svg"
 import mediumIcon from "./images/medium.svg"
@@ -17,7 +17,7 @@ export default {
   name: "Mahipal",
   headerTagline: ["A Full Stack(MERN)", "Web Developer"],
 
-  headerParagraph: "A developer is who bring creator's creativity on web.",
+  headerParagraph: "A developer who creates beautiful and, useful websites.",
 
   contactEmail: "mahi98jat@gmail.com",
 
@@ -39,9 +39,7 @@ export default {
       para:
         "This project is a clone UI of the lynda.com website with the basic functionality of login, sign up and sorting.", // Add Your Service Type Here
 
-      imageSrc:
-        "https://user-images.githubusercontent.com/53153822/130081521-bce719ff-5406-4638-817e-2f64113bac85.png",
-
+      imageSrc: "https://miro.medium.com/max/2400/1*qUhlztuTH6YfgWjgRy2LOQ.png",
       url: "https://linkedin-learning-clone.herokuapp.com/",
       githubLink: "https://github.com/ankitkumar3443/Llinkedin_learning",
     },
@@ -51,9 +49,9 @@ export default {
 
   // About Secton --------------
   aboutParaOne:
-    "I am an aspiring Full Stack Web Developer. Learning MERN Stack at Masai School, Bengaluru, India. In this journey of learning I have learned technologies as JavaScript, React, Redux, Data-Structure, Algorithms. Learning technologies and implementing drives a immense happiness from inside.",
+    "I am an aspiring Full Stack Web Developer. Learning MERN Stack at Masai School, Bengaluru, India. In the journey of learning I have learned technologies like JavaScript, React, Redux, Data-Structure, Algorithms. Learning technologies and implementing drives immense happiness from the inside.",
   aboutParaTwo:
-    " I have done Bachelors of Engineering in Computer Science and Engineering from Sha Shib College of Technology, Bhopal.",
+    " I have done Bachelors's Engineering in Computer Science and Engineering from Sha Shib College of Technology, Bhopal.",
   aboutImage: "./images/portfoliopic.jpg",
 
   //   End About Section ---------------------
@@ -73,46 +71,47 @@ export default {
       img: cssIcon,
       title: "CSS",
       para:
-        "CSS stands for Cascading Style Sheets. It is the language for describing the presentation of Web pages, including colours, layout, and fonts, thus making our web pages presentable to the users.",
+        "It is the language for describing the presentation of Web pages, including colours, layout and fonts.",
     },
     {
       img: jsIcon,
       title: "JavaScript",
       para:
-        "JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else.",
+        "JavaScript is a scripting language that enables you to create dynamically updating and control content.",
     },
     {
       img: reactIcon,
       title: "React",
       para:
-        "React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.",
+        "React will efficiently update and render just the right components when your data changes.",
     },
     {
       img: mongoDB,
       title: "mongoDB",
       para:
-        "MongoDB’s document data model naturally supports JSON and its expressive query language is simple for developers to learn and use.",
+        "MongoDB’s document data model naturally supports JSON and expressive query language.",
     },
     {
       img: redux,
       title: "Redux",
-      para: ` It serves as a centralized store for state that needs to be used across your entire application, with rules ensuring that the state can only be updated in a predictable fashion.`,
+      para: `It serves as a centralized store for state that needs to be used across your entire application.`,
     },
     {
       img: nodeJs,
       title: "NodeJs",
       para:
-        "Node.js lets developers use JavaScript to write command line tools and for server-side scripting—running scripts server-side to produce dynamic web page content before the page is sent to the user's web browser.",
+        "Node.js lets developers use JavaScript to write command line tools.",
     },
     {
       img: nextJs,
       para:
-        "Next.js is an open-source development framework built on top of Node.js enabling React based web applications functionalities such as server-side rendering and generating static websites.",
+        "Next.js is an open-source development framework built on top of Node.js.",
     },
     {
-      img:typeScript,
-      para:"TypeScript is a strongly typed, object oriented, compiled language. It was designed by Anders Hejlsberg (designer of C#) at Microsoft. TypeScript is both a language and a set of tools."
-    }
+      img: typeScript,
+      para:
+        "TypeScript is a strongly typed, object oriented, compiled language.",
+    },
   ],
 
   // End Skills Section --------------------------

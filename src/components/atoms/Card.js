@@ -1,20 +1,8 @@
 import React from "react"
 
-const Card = ({ heading, paragraph, imgUrl, projectLink, gitHub  }) => {
+const Card = ({ heading, paragraph, imgUrl, projectLink, gitHub }) => {
   return (
     <>
-      <a
-        style={{
-          textDecoration: "none",
-          float: "right",
-        }}
-        href={`${gitHub}`}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="primary-btn"
-      >
-        GitHub
-      </a>
       <div
         className="card"
         style={{
@@ -35,6 +23,15 @@ const Card = ({ heading, paragraph, imgUrl, projectLink, gitHub  }) => {
             className="btn"
           >
             Explore
+          </a>
+          <a
+            
+            href={`${gitHub}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="primary-btn"
+          >
+            GitHub
           </a>
         </div>
       </div>
