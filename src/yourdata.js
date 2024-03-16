@@ -49,7 +49,7 @@ export default {
 
   // About Secton --------------
   aboutParaOne:
-    "I am an aspiring Full Stack Web Developer. Learning MERN Stack at Masai School, Bengaluru, India. In the journey of learning I have learned technologies like JavaScript, React, Redux, Data-Structure, Algorithms. Learning technologies and implementing drives immense happiness from the inside.",
+    "I've been building user-friendly web apps with React, TypeScript, and all the cool stuff (Redux, Zustand, Ant Design) for over 2 years now. I love making interfaces that work flawlessly on any device and are a joy to use. Plus, my code is clean, easy to maintain, and always passes the test!",
   aboutParaTwo:
     " I have done Bachelors's Engineering in Computer Science and Engineering from Sha Shib College of Technology, Bhopal.",
   aboutImage: "./images/portfoliopic.jpg",
